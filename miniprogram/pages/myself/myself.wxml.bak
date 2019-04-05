@@ -1,0 +1,63 @@
+<view class="myselfclass_top">
+    <text>个人信息</text>
+</view>
+<view class="myselfclass"> 
+     <view class="myselfleftclass">
+        <text>{{user_realname}}</text>      
+     </view> 
+     <view class="myselfrightclass">
+        <text>{{user_realname1}}</text>      
+     </view>     
+</view>
+
+
+
+<view class="myselfclass"> 
+     <view class="myselfleftclass">
+        <text>{{user_birthday}}</text>      
+     </view> 
+     <view class="myselfleftclass">
+        <text>{{user_birthday1}}</text>      
+     </view>     
+</view>
+
+<view class="myselfclass"> 
+     <view class="myselfleftclass">
+        <text>{{user_name}}</text>      
+     </view> 
+     <view class="myselfleftclass">
+        <text>{{user_name1}}</text>      
+     </view>     
+</view>
+
+<view class="myselfclass"> 
+     <view class="myselfleftclass">
+        <text>{{user_campus}}</text>      
+     </view> 
+     <view class="myselfleftclass">
+        <text>{{user_campus1}}</text>      
+     </view>     
+</view>
+
+<view class="myselfclass"> 
+     <view class="myselfleftclass">
+        <text>{{user_phonenumber}}</text>      
+     </view> 
+     <view class="myselfleftclass">
+        <text>{{user_phonenumber1}}</text>      
+     </view>     
+</view>
+
+<view class="myselfclass"> 
+     <view class="myselfleftclass">
+        <text>{{user_money}}</text>      
+     </view> 
+     <view class="myselfleftclass">
+        <text>{{user_money1}}</text>      
+     </view>     
+</view>
+
+
+<view class='signUpButton' bindtap='register'>登陆</view>
+<view class='signUpButton' bindtap='newUserSignUp'>新用户注册</view>
+<view class='signUpButton' bindtap='contactUs'>联系我们</view>

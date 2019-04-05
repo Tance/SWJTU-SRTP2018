@@ -1,0 +1,88 @@
+/* miniprogram/pages/signUpPage/signUpPage.wxss */
+.headerListText{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.mainContainer{
+  margin-top: 10rpx;
+}
+
+
+
+
+
+
+.ui-coupon {
+    color: #333;
+    padding: 16px;
+    min-height: 100vh;
+    background-color: #63b359;
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start
+}
+ 
+.ui-coupon-container {
+    border: 0;
+    outline: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #fff;
+}
+ 
+.ui-coupon-header {
+    position: relative;
+}
+ 
+.ui-coupon-header:before,
+.ui-coupon-header:after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    bottom: -8px;
+    background-color: #63b359;
+}
+ 
+.ui-coupon-header:before {
+    left: -8px;
+}
+ 
+.ui-coupon-header:after {
+    right: -8px;
+}
+ 
+.ui-coupon-row {
+    color: #333;
+    line-height: 24px;
+    padding: 12px 25px;
+    font-size: 16px;
+    position: relative;
+}
+ 
+.ui-coupon-header .ui-coupon-row:before,
+.ui-coupon-row + .ui-coupon-row:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    display: block;
+    content: '';
+    border-top: 1px solid #d9d9d9;
+ 
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+}
+ 
+.ui-coupon-header .ui-coupon-row:before {
+    top: auto;
+    bottom: 0;
+    left: 16px;
+    right: 16px;
+    border-top-style: dashed;
+}

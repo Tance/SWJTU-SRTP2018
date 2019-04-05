@@ -1,0 +1,53 @@
+<!--miniprogram/pages/order/order.wxml-->
+
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">已选订单</view>
+
+  </view>
+  <view class="page__bd">
+    <view class="weui-form-preview" wx:for="{{orderList}}">
+      <view class='democlass?' id='{{item.id}}' bindtap='refundTicket'>
+        <view class="weui-form-preview__hd">
+          <view class="weui-form-preview__item">
+
+            <view class="weui-form-preview__label">
+              <text>车次</text>
+            </view>
+            <view class="weui-form-preview__value_in-hd">
+              <text>{{item.cheNo}}</text>
+            </view>
+          </view>
+        </view>
+        <view class="weui-form-preview__bd">
+          <view class="weui-form-preview__item">
+            <view class="weui-form-preview__label">
+              <text>车站信息</text>
+            </view>
+            <view class="weui-form-preview__value">
+              <text>{{item.cheRouteWay}}</text>
+            </view>
+          </view>
+          <view class="weui-form-preview__item">
+            <view class="weui-form-preview__label">
+              <text>车座位</text>
+            </view>
+            <view class="weui-form-preview__value">
+              <text>{{item.cheSeatNo}}</text>
+            </view>
+          </view>
+          <view class="weui-form-preview__item">
+            <view class="weui-form-preview__label">
+              <text>状态</text>
+            </view>
+            <view class="weui-form-preview__value">
+              <text>{{item.cheFlag}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+</view>

@@ -1,0 +1,10 @@
+<!--miniprogram/pages/index/index.wxml-->
+
+<view class='phoneNumberContainer'>
+  <input type='number' placeholder='用户名' maxlength='10'bindinput="bindNameInput"></input>
+</view>
+<view class='passwordContainer'>
+  <input placeholder='密码' password="true" bindinput="bindPasswordInput"></input>
+</view>
+<view class='class1' bindtap='bindingSuccess'>立即登录</view>
+<view class='registerContainer' bindtap='registerTap'>注册账号</view>

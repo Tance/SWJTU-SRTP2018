@@ -1,0 +1,30 @@
+/* miniprogram/pages/selectSeat/selectSeat.wxss */
+/* miniprogram/pages/selectSeat/selectSeat.wxss */
+.page{
+  display:  flex;
+  flex-wrap: wrap;
+  width: 90%
+}
+.viewImg{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 5px;
+  padding: 0 10px;
+  text-align: center;
+ 
+    
+  ine-height: 2.3em;
+  color: #cfcfcf;
+  
+}
+.page-bottom{
+  margin-top: 10rpx;
+
+}
+.signUpButton{
+  margin-top: 10rpx;
+  height: 100rpx;
+  width: 90%;
+  background: rgb(47, 185, 54);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}

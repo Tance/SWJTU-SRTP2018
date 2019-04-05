@@ -1,0 +1,111 @@
+<!--miniprogram/pages/index/index.wxml-->
+
+<view class ="page">
+ <view class ="page_hd">
+  <view class="page_title"> 校车购票</view>
+ </view>
+
+<view class="page__bd">
+        <view class="weui-form-preview" bindtap='selectSeat0'>
+            <view class="weui-form-preview__hd">
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label"><text>车次：</text></view>
+                    <view class="weui-form-preview__value_in-hd"><text>{{cheNo0}}</text></view>
+                </view>
+            </view>
+            <view class="weui-form-preview__bd">
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label"><text>运行区间：</text></view>
+                    <view class="weui-form-preview__value"><text>{{routeWay0}}</text></view>
+                </view>
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label"><text>出发日期：</text></view>
+                    <view class="weui-form-preview__value"><text>{{cheDate0}}</text></view>
+                </view>
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label"><text>出发时间：</text></view>
+                    <view class="weui-form-preview__value"><text>{{cheGoTime0}}</text></view>
+                </view>
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label"><text>距离</text></view>
+                    <view class="weui-form-preview__value"><text>{{cheDistance0}}</text></view>
+                </view>
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label"><text>预计等待时间：</text></view>
+                    <view class="weui-form-preview__value"><text>{{cheWaitTime0}}</text></view>
+                </view>
+            </view>
+            <view class="weui-form-preview__ft">
+                <navigator url="" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">购买车票</navigator>
+            </view>
+        </view>
+        <view class="weui-form-preview" bindtap='selectSeat1'>
+            <view class="weui-form-preview__hd">
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label"><text>车次：</text></view>
+                    <view class="weui-form-preview__value_in-hd"><text>{{cheNo1}}</text></view>
+                </view>
+            </view>
+            <view class="weui-form-preview__bd">
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label"><text>运行区间：</text></view>
+                    <view class="weui-form-preview__value"><text>{{routeWay1}}</text></view>
+                </view>
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label"><text>出发日期：</text></view>
+                    <view class="weui-form-preview__value"><text>{{cheDate1}}</text></view>
+                </view>
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label"><text>出发时间：</text></view>
+                    <view class="weui-form-preview__value"><text>{{cheGoTime1}}</text></view>
+                </view>
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label"><text>距离</text></view>
+                    <view class="weui-form-preview__value"><text>{{cheDistance1}}</text></view>
+                </view>
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label"><text>预计等待时间：</text></view>
+                    <view class="weui-form-preview__value"><text>{{cheWaitTime1}}</text></view>
+                </view>
+            </view>
+            <view class="weui-form-preview__ft">
+                <navigator url="" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">购买车票</navigator>
+            </view>
+        </view>
+    </view>
+
+<!--33333333333333333-->
+<view>
+<view><text>{{cheNo}}</text><text>{{cheNo2}}</text>
+<text>{{routeWay}}</text><text>{{routeWay2}}</text>
+<text>{{cheDate}}</text><text>{{cheDate2}}</text>
+<text>{{cheGotime}}</text><text>{{cheGoTime2}}</text>
+<text>{{cheDistance}}</text><text>{{cheDistance2}}</text>
+<text>{{cheWaitTime}}</text><text>{{cheWaitTime2}}</text>
+</view>
+<!------4444444444444444------->
+<view><text>{{cheNo}}</text><text>{{cheNo3}}</text>
+<text>{{routeWay}}</text><text>{{routeWay3}}</text>
+<text>{{cheDate}}</text><text>{{cheDate3}}</text>
+<text>{{cheGotime}}</text><text>{{cheGoTime3}}</text>
+<text>{{cheDistance}}</text><text>{{cheDistance3}}</text>
+<text>{{cheWaitTime}}</text><text>{{cheWaitTime3}}</text>
+</view>
+
+<!--view><text>{{cheNo}}</text><text>{{cheNo4}}</text>
+<text>{{routeWay}}</text><text>{{routeWay4}}</text>
+<text>{{cheDate}}</text><text>{{cheDate4}}</text>
+<text>{{cheGotime}}</text><text>{{cheGoTime4}}</text>
+<text>{{cheDistance}}</text><text>{{cheDistance4}}</text>
+<text>{{cheWaitTime}}</text><text>{{cheWaitTime4}}</text>
+</view-->
+
+
+<view class='signUpButton' bindtap='wantMore'>加载更多</view>
+<!--view class='signUpButton' bindtap='newUserSignUp'>新用户注册</view>
+<view class='signUpButton' bindtap='contactUs'>联系我们</view-->
+</view>
+
+
+
+</view>

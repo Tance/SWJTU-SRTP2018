@@ -1,0 +1,60 @@
+<view class="myselfclass_top">
+  <text class='myinformation'>个人信息</text>
+  <image style="width=200rpx;height:200rpx;   " mode="aspectFit" src='user-unlogin.png'></image>
+  <view class='signUpButton' bindtap='register'>请登陆/注册</view>
+</view>
+<view class="myselfclass">
+  <view class="myselfleftclass">
+    <text>{{user_realname}}</text>
+  </view>
+  <view class="myselfleftclass">
+    <text>{{user_realname1}}</text>
+  </view>
+</view>
+
+
+
+<view class="myselfclass">
+  <view class="myselfleftclass">
+    <text>{{user_birthday}}</text>
+  </view>
+  <view class="myselfleftclass">
+    <text>{{user_birthday1}}</text>
+  </view>
+</view>
+
+<view class="myselfclass">
+  <view class="myselfleftclass">
+    <text>{{user_name}}</text>
+  </view>
+  <view class="myselfleftclass">
+    <text>{{user_name1}}</text>
+  </view>
+</view>
+
+<view class="myselfclass">
+  <view class="myselfleftclass">
+    <text>{{user_campus}}</text>
+  </view>
+  <view class="myselfleftclass">
+    <text>{{user_campus1}}</text>
+  </view>
+</view>
+
+<view class="myselfclass">
+  <view class="myselfleftclass">
+    <text>{{user_phonenumber}}</text>
+  </view>
+  <view class="myselfleftclass">
+    <text>{{user_phonenumber1}}</text>
+  </view>
+</view>
+
+<view class="myselfclass">
+  <view class="myselfleftclass">
+    <text>{{user_money}}</text>
+  </view>
+  <view class="myselfleftclass">
+    <text>{{user_money1}}</text>
+  </view>
+</view>

@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/myself/myself",
+    "pages/signInPage/index",
+    "pages/signUpPage/signUpPage",
+    "pages/selectSeat/selectSeat",
+    "pages/order/order",
+    "pages/refundticket/refundTicket"
+ 
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "西南交大校车订票平台",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#bcbdc1",
+    "selectedColor": "#1c1c1d",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "选票",
+        "iconPath": "images/litst.png",
+        "selectedIconPath": "images/litst-selected.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "images/shopping-cart.png",
+        "selectedIconPath": "images/shopping-selected.png"
+      },
+      {
+        "pagePath": "pages/myself/myself",
+        "text": "个人",
+        "iconPath": "images/idcard.png",
+        "selectedIconPath": "images/idcard-selected.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}

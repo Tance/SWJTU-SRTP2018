@@ -1,0 +1,10 @@
+<!--miniprogram/pages/selectSeat/selectSeat.wxml-->
+
+<view class='page'>
+<view wx:for="{{seatList}}" class='page-bottom'>
+  <image src='{{item.value}}' class='viewImg' id='{{item.id}}' bindtap='clickSeat'></image>
+  <view>{{item.id}}</view>
+</view>
+
+<button class='signUpButton' bindtap='confiremSelectSeat'>确认选座</button>
+</view>

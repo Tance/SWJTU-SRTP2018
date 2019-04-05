@@ -1,0 +1,12 @@
+/* miniprogram/pages/order/order.wxss */
+/* miniprogram/pages/order/order.wxss */
+.page_hd{
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page{
+  diplay:flex;
+  
+}
